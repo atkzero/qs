@@ -33,10 +33,10 @@ Searcher {
         Quickshell.execDetached(["caelestia", "wallpaper", "-r", ...smartArg]);
     }
 
-    function setWallpaper(path: string): void {
-        actualCurrent = path;
-        Quickshell.execDetached(["caelestia", "wallpaper", "-f", path, ...smartArg]);
-    }
+    //function setWallpaper(path: string): void {
+        //actualCurrent = path;
+        //Quickshell.execDetached(["caelestia", "wallpaper", "-f", path, ...smartArg]);
+    //}
 
     function preview(path: string): void {
         previewPath = path;
